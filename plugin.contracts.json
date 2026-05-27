@@ -1,0 +1,131 @@
+{
+  "version": "1",
+  "contracts": [
+    {
+      "kind": "module",
+      "type": "scalekit.provider",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ProviderConfig"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_auth_provider_describe",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.AuthProviderDescribeConfig",
+      "input": "workflow.plugins.scalekit.v1.AuthProviderDescribeInput",
+      "output": "workflow.plugins.scalekit.v1.AuthProviderDescribeOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_connection_create",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_connection_get",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_connection_list",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_connection_enable",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_connection_disable",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_connection_delete",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_directory_create",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_directory_get",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_directory_list",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_directory_enable",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_directory_disable",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_directory_delete",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_directory_user_list",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    },
+    {
+      "kind": "step",
+      "type": "step.scalekit_directory_group_list",
+      "mode": "strict",
+      "config": "workflow.plugins.scalekit.v1.ScalekitStepConfig",
+      "input": "workflow.plugins.scalekit.v1.ScalekitStepInput",
+      "output": "workflow.plugins.scalekit.v1.ScalekitStepOutput"
+    }
+  ]
+}

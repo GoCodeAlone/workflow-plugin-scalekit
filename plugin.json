@@ -1,0 +1,58 @@
+{
+  "name": "workflow-plugin-scalekit",
+  "version": "0.1.0",
+  "description": "Scalekit enterprise SSO and Directory Sync provider plugin",
+  "author": "GoCodeAlone",
+  "license": "MIT",
+  "type": "external",
+  "tier": "community",
+  "private": false,
+  "minEngineVersion": "0.64.0",
+  "keywords": ["scalekit", "sso", "saml", "oidc", "scim", "directory-sync"],
+  "homepage": "https://github.com/GoCodeAlone/workflow-plugin-scalekit",
+  "repository": "https://github.com/GoCodeAlone/workflow-plugin-scalekit",
+  "capabilities": {
+    "configProvider": false,
+    "moduleTypes": ["scalekit.provider"],
+    "stepTypes": [
+      "step.scalekit_auth_provider_describe",
+      "step.scalekit_connection_create",
+      "step.scalekit_connection_get",
+      "step.scalekit_connection_list",
+      "step.scalekit_connection_enable",
+      "step.scalekit_connection_disable",
+      "step.scalekit_connection_delete",
+      "step.scalekit_directory_create",
+      "step.scalekit_directory_get",
+      "step.scalekit_directory_list",
+      "step.scalekit_directory_enable",
+      "step.scalekit_directory_disable",
+      "step.scalekit_directory_delete",
+      "step.scalekit_directory_user_list",
+      "step.scalekit_directory_group_list"
+    ],
+    "triggerTypes": []
+  },
+  "downloads": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "url": "https://github.com/GoCodeAlone/workflow-plugin-scalekit/releases/download/v0.1.0/workflow-plugin-scalekit-linux-amd64.tar.gz"
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "url": "https://github.com/GoCodeAlone/workflow-plugin-scalekit/releases/download/v0.1.0/workflow-plugin-scalekit-linux-arm64.tar.gz"
+    },
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "url": "https://github.com/GoCodeAlone/workflow-plugin-scalekit/releases/download/v0.1.0/workflow-plugin-scalekit-darwin-amd64.tar.gz"
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "url": "https://github.com/GoCodeAlone/workflow-plugin-scalekit/releases/download/v0.1.0/workflow-plugin-scalekit-darwin-arm64.tar.gz"
+    }
+  ]
+}
