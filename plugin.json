@@ -8,12 +8,41 @@
   "tier": "community",
   "private": false,
   "minEngineVersion": "0.64.0",
-  "keywords": ["scalekit", "sso", "saml", "oidc", "scim", "directory-sync"],
+  "required_secrets": [
+    {
+      "name": "SCALEKIT_ENVIRONMENT_URL",
+      "sensitive": false,
+      "description": "Scalekit environment URL. Referenced as ${SCALEKIT_ENVIRONMENT_URL}.",
+      "prompt": "Scalekit environment URL"
+    },
+    {
+      "name": "SCALEKIT_CLIENT_ID",
+      "sensitive": false,
+      "description": "Scalekit client ID. Referenced as ${SCALEKIT_CLIENT_ID}.",
+      "prompt": "Scalekit client ID"
+    },
+    {
+      "name": "SCALEKIT_CLIENT_SECRET",
+      "sensitive": true,
+      "description": "Scalekit client secret. Referenced as ${SCALEKIT_CLIENT_SECRET}.",
+      "prompt": "Scalekit client secret"
+    }
+  ],
+  "keywords": [
+    "scalekit",
+    "sso",
+    "saml",
+    "oidc",
+    "scim",
+    "directory-sync"
+  ],
   "homepage": "https://github.com/GoCodeAlone/workflow-plugin-scalekit",
   "repository": "https://github.com/GoCodeAlone/workflow-plugin-scalekit",
   "capabilities": {
     "configProvider": false,
-    "moduleTypes": ["scalekit.provider"],
+    "moduleTypes": [
+      "scalekit.provider"
+    ],
     "stepTypes": [
       "step.scalekit_auth_provider_describe",
       "step.scalekit_connection_create",
